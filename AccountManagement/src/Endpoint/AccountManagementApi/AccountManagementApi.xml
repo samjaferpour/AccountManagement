@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AccountManagementApi</name>
+    </assembly>
+    <members>
+        <member name="M:AccountManagementApi.Controllers.v1.AccountController.GetAccountOwnershipTypes">
+            <summary>
+            لیست نوع مالکیت حساب 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AccountManagementApi.Controllers.v1.AccountController.GetSubscriptionTypes">
+            <summary>
+            لیست وضعیت اشتراک
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AccountManagementApi.Controllers.v1.AccountController.GetSwiftTypes">
+            <summary>
+            لیست نوع ارز 
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AccountManagementApi.Controllers.v1.AccountManagementController.GetBlockUnblockReason">
+            <summary>
+            لیست دلیل مسدودی و رفع مسدودی
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AccountManagementApi.Controllers.v1.LetterController.GenerateTrackingCode(AccountManagement.Contract.Dto.GenerateTrackingCodeRequest)">
+            <summary>
+            افزودن نامه و شروع روال بلاک کردن
+            </summary>
+            <param name="request">اطلاعات نامه و جزئیات نامه</param>
+            <returns></returns>
+            <exception cref="T:Common.Exceptions.BadRequestException">در صورتی که ورودی نامعتبر باشد</exception>
+        </member>
+        <member name="M:AccountManagementApi.Controllers.v1.LetterController.GetLetterTypes">
+            <summary>
+            لیست نوع نامه ها
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:AccountManagementApi.Controllers.v1.LetterController.GetLetterProgress(AccountManagement.Contract.Dto.GetLetterProgressRequest)">
+            <summary>
+            درصد پیشرفت روال نامه
+            </summary>
+            <param name="request"></param>
+            <returns></returns>
+        </member>
+        <member name="M:AccountManagementApi.Controllers.v1.LetterController.GetBlockTransactions(AccountManagement.Contract.Dto.GetBlockTransactionsRequest)">
+            <summary>
+            گزاش حساب های بلاک شده
+            </summary>
+            <param name="request">کد رهگیری</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
